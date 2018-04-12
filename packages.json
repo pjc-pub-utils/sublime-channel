@@ -3,7 +3,7 @@
   "packages": [
      {
         "name":    "ConEmuOpen",
-        "details": "https://github.com/pjc-utils/Sublime_ConEmuOpen",
+        "details": "https://github.com/pjc-pub-utils/Sublime_ConEmuOpen",
         "labels":  ["conemu", "cmd", "windows", "cmd here"],
         "releases": [
           {

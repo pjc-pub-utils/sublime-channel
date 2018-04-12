@@ -1,0 +1,17 @@
+{
+  "schema_version": "3.0.0",
+  "packages": [
+     {
+        "name":    "ConEmuOpen",
+        "details": "https://github.com/pjc-utils/Sublime_ConEmuOpen",
+        "labels":  ["conemu", "cmd", "windows", "cmd here"],
+        "releases": [
+          {
+            "sublime_text": ">=3000",
+            "platforms": ["windows"],
+            "tags": true
+          }
+         ]
+     }
+  ]
+}

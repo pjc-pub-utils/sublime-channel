@@ -4,7 +4,8 @@
      {
         "name":    "AAAConEmuOpen",
         "details": "https://github.com/pjc-pub-utils/Sublime_ConEmuOpen",
-        "labels":  ["conemu", "cmd", "windows", "cmd here"],
+        "readme": "https://raw.githubusercontent.com/pjc-pub-utils/Sublime_ConEmuOpen/master/README.md",
+        "labels":  ["pjc", "conemu", "windows"],
         "releases": [
           {
             "sublime_text": ">=3000",

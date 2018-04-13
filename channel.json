@@ -2,7 +2,5 @@
   "schema_version": "3.0.0",
   "repositories" : [  
     "https://raw.githubusercontent.com/pjc-pub-utils/sublime-packagecontrol/master/packages.json"
-  ],
-  "packages_cache": {},
-  "dependencies_cache": {}
+  ]
 }

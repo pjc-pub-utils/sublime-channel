@@ -138,12 +138,12 @@ my `packages.json` at:
 - html: `https://github.com/pjc-pub-utils/sublime-packagecontrol/packages.json`
 - raw: `https://raw.githubusercontent.com/pjc-pub-utils/sublime-packagecontrol/master/packages.json`
 
-```
+```json
 {
   "schema_version": "3.0.0",
   "packages": [
      {
-        "name":    "ConEmuOpen",
+        "name":    "AAAConEmuOpen",
         "details": "https://github.com/pjc-utils/Sublime_ConEmuOpen",
         "labels":  ["conemu", "cmd", "windows", "cmd here"],
         "releases": [
@@ -187,8 +187,23 @@ my `packages.json` at:
 
 [submitting a package to default channel (not what we are doing but relevant)](https://packagecontrol.io/docs/submitting_a_package)
 
-
 ## notes
+
+- you can include the repository *url* (the raw *url* to the `packages.json` file) in the "repositories":[] key of the User Package Control.sublime-settings. I got this to work before the channel example. However, it can take a restart of sublimetext to get the cache flushed or something? 
+
+  **Package Control.sublime-settings**
+
+  ```
+  ...
+  "repositories":
+  	[
+  		"https://raw.githubusercontent.com/pjc-pub-utils/sublime-packagecontrol/master/packages.json"
+  	]
+  ...
+  ```
+
+  ​
+
 
 - *url* references to the *json* files must be in github raw format (see [here](https://github.com/wbond/package_control/issues/815)). (as a reminder, you can get the raw *url* via the **raw** button on github after the file has been selected). *url* examples
 
